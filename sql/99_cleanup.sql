@@ -1,0 +1,20 @@
+-- 99_cleanup.sql
+-- Optional final step. Do not include this in an automated run of all SQL files.
+--
+-- WARNING: Drops RETURNS_DECISION_DEMO and every object inside it, including
+-- all schemas, input tables, saved model outputs, the CSV format, and the stage.
+-- Export any results you want to keep before proceeding.
+--
+-- Use this only if RETURNS_DECISION_DEMO is dedicated to this tutorial.
+-- If you used a shared database, do NOT run this database-level cleanup.
+-- If you renamed the demo database, verify the intended name before editing it.
+-- Use a role authorized to drop the database; this script grants no privileges.
+--
+-- This script does not drop or suspend a warehouse, remove roles, change
+-- account settings, or delete local/repository CSVs. It does not reverse
+-- charges already incurred; normal data-retention rules still apply.
+--
+-- Intentionally commented out. Uncomment only after checking the target:
+-- DROP DATABASE IF EXISTS RETURNS_DECISION_DEMO;
+--
+-- Reference: https://docs.snowflake.com/en/sql-reference/sql/drop-database
